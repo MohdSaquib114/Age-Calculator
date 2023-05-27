@@ -95,7 +95,7 @@ span{
 }
 
 
-@media (min-width:450px) {
+@media (min-width:500px) {
     body{
         padding: 12% 0 0 0;
         display: grid;
