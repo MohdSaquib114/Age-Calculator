@@ -50,6 +50,7 @@ input::placeholder{
     
     font-weight: 600;
     color: hsl(0, 1%, 77%);
+    padding-left:.5em ;
 }
 
 #input-section div{
@@ -68,10 +69,11 @@ button{
     background-color: hsl(259, 100%, 65%);
     border-style: none;
     border-radius: 50%;
-    padding: 0.7rem;
+    padding: .9em .6em;
+    /* padding: 0.6rem; */
     position: relative;
-    top: -23px;
-    left: 35%;
+    top: -25px;
+    left: 110px;
    
 }
 button img{
@@ -80,8 +82,12 @@ button img{
 }
 
 #section-output h1{
-   font: weight 800i;;
-    line-height: .42em;
+   font-weight:800;
+   font-size:2.9rem;
+   letter-spacing: .1rem;
+   line-height: .3em;
+   font-style: italic ;
+   
    
 }
 span{
@@ -91,14 +97,14 @@ span{
 
 @media (min-width:400px) {
     body{
-        padding: 15% 0 0 0;
+        padding: 12% 0 0 0;
         display: grid;
         grid-template-rows: 1fr;
     }
   main{
     justify-self: center;
     align-self: center;
-    width: 480px;
+    width: 450px;
     padding: 2.2em 0.9em 0.5em 0.9em;
   }
   label{
@@ -115,9 +121,9 @@ span{
   }
   #section-output h1{
     font-size: 2em;
-    font-weight: 900i;
-    line-height: .12em;
-    letter-spacing: .43rem;
+    font-weight: bolder;
+    line-height: .3rem;
+    letter-spacing: .1rem;
   }
   #section-output{
     margin-top: -40px;
