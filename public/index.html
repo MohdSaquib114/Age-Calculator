@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+
+<main>
+  <section id="input-section">
+  <label for="input-1">DAY<input type="text"  id="input-1" placeholder="DD"/><p class="error-message"></p></label>
+  
+  <label for="input-2">MONTH <input type="text"  id="input-2" placeholder="MM"/><p class="error-message"></p></label>
+  
+  <label for="input-3">YEAR <input type="text"  id="input-3" placeholder="YYYY"/><p class="error-message"></p></label>
+  
+   </section>
+   <section id="button-section">
+   <div class="horizontal-rule"></div>
+   <button id="btn"><img src="/assets/images/icon-arrow.svg" alt=""></button>
+   </section>
+   <section id="section-output">
+    <h1><span >--</span> years</h1>
+    <h1><span >--</span> months</h1>
+    <h1><span>--</span> days</h1>
+   </section>
+</main>
+<script src="/src/index.js"></script>
+</body>
+</html>
