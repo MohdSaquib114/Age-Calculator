@@ -94,9 +94,9 @@ function ageCalc(){
 const dayValue = Number(input_1.value)
 const monthValue= Number(input_2.value)
 const yearValue  = Number(input_3.value)
-
 const currentDay = date.getDay()
 const currentMonth = date.getMonth()
+console.log(currentMonth, currentDay)
 const allMonths = [31,28,31,30,31,30,31,31,30,31,30,31]
  let year, month, day;
  year = currentYear - yearValue
@@ -108,7 +108,7 @@ if (monthValue >= currentMonth + 1) {
 }
 
 if (month >=12) {
-    year += Math.floor(months / 12);
+    year += Math.floor(month/ 12);
     month = month % 12;
 }
 
@@ -123,7 +123,9 @@ yearOutput.textContent = year
  monthOutput.textContent = month
   dayOutput.textContent = day
 
-
+console.log(year)
+console.log(month)
+console.log(day)
 
 }
 
